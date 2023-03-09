@@ -7,20 +7,17 @@ public class JavaScanner {
 		int a,b,i;
 		int sum = 0;
 		
+		System.out.print("시작 숫자: ");
 		a = sc.nextInt();
+		System.out.print("마지막 숫자: ");
 		b = sc.nextInt();
 		
+		
         for(i=a;i<b;i++){
-            System.out.printf("%d + ",i);
-            sum = sum+i;
+            sum += i;
         }
         
-        System.out.printf("%d",i);
-        
-        sum = sum + i;
-        System.out.printf(" = %d",sum);
-		
-		System.out.println(a+b);
+        System.out.printf(a +"부터 "+b+"까지의 합은 "+ sum);
 	}
 
 }
