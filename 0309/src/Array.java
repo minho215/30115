@@ -10,6 +10,6 @@ public class Array{
 		}
 		
 		System.out.println("최대값: " + max);
-		
+		//aaa
 	}
 }
